@@ -1,0 +1,282 @@
+/*EN TETE*/
+
+
+/*MENU NAVIGATION*/                                                                                                         
+nav
+{
+	display: inline-block;
+	width: 950px;
+	text-align: center;
+}
+
+nav ul
+{
+	list-style-type: none;
+}
+
+nav li
+{
+	display: inline-block;
+	width: 182px;
+	height: 40px;
+	margin-right: 15px;
+}
+
+nav a
+{
+	text-align: center;
+	color: white;
+	text-decoration: none;	
+	padding: 10px
+}
+
+#actualites
+{
+	background-color: blue;
+	
+}
+#contact
+{
+	background-color: green;
+}
+#adherer
+{
+	background-color: red;
+}
+#acces
+{
+	background-color: orange;
+}
+
+#actualites:hover
+{
+	background-color: gray;
+}
+
+#contact:hover
+{
+	background-color: gray;
+}
+#adherer:hover
+{
+	background-color: gray;
+}
+#acces:hover
+{
+	background-color: gray;
+}
+
+/*Navigation sur la page actualité*/
+#nav_vertical
+{
+	display: inline-block;
+	width: 182px;
+	margin-right: 10px; 
+}
+
+#nav_vertical a
+{
+	text-align: center;
+	color: white;
+	text-decoration: none;	
+	padding: 10px
+}
+
+#nav_vertical ul
+{
+	list-style-type: none;
+}
+
+.actualites
+{
+	background-color: rgb(0,0,255);
+	
+}
+.contact
+{
+	background-color: rgb(70,100,200);
+}
+.acces
+{
+	background-color: rgb(100,100,150);
+}
+
+.actualites:hover
+{
+	background-color: gray;
+}
+.contact:hover
+{
+	background-color: gray;
+}
+.acces:hover
+{
+	background-color: gray;
+}
+
+/*CARACTERISTIQUE PAGE*/
+header
+{
+	background-color: rgba(255,255,255,0.4);
+	text-align: center;
+	box-shadow: 6px 6px 3px black;
+}
+
+body
+{
+	background: url("img/fonds/fond_zen.png");
+	font-family: "Trebuchet MS", arial, sans-serif;
+	color: black;
+}
+
+#page
+{
+	width: 950px;
+	margin: auto;
+}
+
+h2
+{
+	font-size: 1.3em;
+	margin: 0px;
+	display: inline;
+}
+
+
+section
+{
+	margin-top : 10px;
+	margin-left: 10px;
+}
+
+/*Sections1*/
+
+section h1
+{
+	font-family: arial, sans-serif;
+	font-size: 1.5em;
+}
+
+/* aside */
+
+article,aside
+{
+	display: inline-block;
+	vertical-align: top;
+	text-align: justify;
+}
+
+article
+{
+	width: 350px;	
+	border: 1px black dashed;
+	padding: 5px;
+	margin: 5px;
+}
+
+aside
+{
+	position: relative;
+	width: 200px;
+	margin-top: 20px;
+	margin-left: 30px;
+}
+
+
+/*Caractéristique du corps sur la page accès adhérents*/
+input
+{
+	width: 220px;
+	height: 20px;
+	background-color: rgba(0,107,166,0.2);
+	border: 2px solid white;
+	border-radius: 2px;
+	box-shadow: 4px 3px 2px black;
+}
+
+.main_wrapper input
+{
+	width: 200px;
+	height: 18px;
+	background-color: rgba(0,87,146,0.2);
+	border: 2px solid white;
+	border-radius: 2px;
+	box-shadow: none;
+}
+
+#file
+{
+	width: 250px;
+	height: 20px;
+	background-color: rgba(0,107,166,0.2);
+	border: 2px solid white;
+	border-radius: 2px;
+	box-shadow: 4px 3px 2px black;
+}
+
+.tableau_profil
+{
+	border-collapse: collapse;
+	box-shadow: 1px 2px 2px black;
+}
+
+.tableau_profil td, th
+{
+	border: 3px ridge rgb(150,150,211); 
+	padding: 5px;
+}
+
+.tableau_admin
+{
+	border-collapse: collapse;
+	box-shadow: 1px 2px 2px black;
+}
+
+.tableau_admin td, th
+{
+	border: 3px ridge rgb(211,150,150); 
+	padding: 2px;
+}
+
+/* FOOTER */
+footer
+{
+	padding-top: 25px;
+	text-align: center;
+	margin: auto;
+}
+
+@media all and (max-width: 1024px)
+{
+	#page
+	{
+		width: auto;
+	}
+	
+	header
+	{
+		margin-bottom : 10px;
+	}
+	
+	nav
+	{
+		width: auto;
+		text-align: left;
+	}
+	
+	nav li
+	{
+		display: block;
+		padding-left: 4px;
+	}
+	
+	nav a
+	{
+		font-size: 1.1em;
+	}
+	
+	nav a:hover
+	{
+		border-bottom: 0;
+	}
+}
